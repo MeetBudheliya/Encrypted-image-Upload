@@ -13,7 +13,6 @@
 		047A72F92705942300EFB6CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047A72F72705942300EFB6CE /* Main.storyboard */; };
 		047A72FB2705942600EFB6CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 047A72FA2705942600EFB6CE /* Assets.xcassets */; };
 		047A72FE2705942600EFB6CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047A72FC2705942600EFB6CE /* LaunchScreen.storyboard */; };
-		047A73082705951E00EFB6CE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 047A73072705951E00EFB6CE /* GoogleService-Info.plist */; };
 		D48ACE4B291D43663A42CB62 /* Pods_EncryptedFileUpload.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DE4E86249A4DED58EA74A65 /* Pods_EncryptedFileUpload.framework */; };
 /* End PBXBuildFile section */
 
@@ -26,7 +25,6 @@
 		047A72FA2705942600EFB6CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		047A72FD2705942600EFB6CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		047A72FF2705942600EFB6CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		047A73072705951E00EFB6CE /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		3A9AE70C3143A67FA57FBC5E /* Pods-EncryptedFileUpload.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EncryptedFileUpload.debug.xcconfig"; path = "Target Support Files/Pods-EncryptedFileUpload/Pods-EncryptedFileUpload.debug.xcconfig"; sourceTree = "<group>"; };
 		9DE4E86249A4DED58EA74A65 /* Pods_EncryptedFileUpload.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EncryptedFileUpload.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A391813A721F1D5B501F6CF6 /* Pods-EncryptedFileUpload.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EncryptedFileUpload.release.xcconfig"; path = "Target Support Files/Pods-EncryptedFileUpload/Pods-EncryptedFileUpload.release.xcconfig"; sourceTree = "<group>"; };
@@ -72,7 +70,6 @@
 				047A72FA2705942600EFB6CE /* Assets.xcassets */,
 				047A72FC2705942600EFB6CE /* LaunchScreen.storyboard */,
 				047A72FF2705942600EFB6CE /* Info.plist */,
-				047A73072705951E00EFB6CE /* GoogleService-Info.plist */,
 			);
 			path = EncryptedFileUpload;
 			sourceTree = "<group>";
@@ -154,7 +151,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				047A72FE2705942600EFB6CE /* LaunchScreen.storyboard in Resources */,
-				047A73082705951E00EFB6CE /* GoogleService-Info.plist in Resources */,
 				047A72FB2705942600EFB6CE /* Assets.xcassets in Resources */,
 				047A72F92705942300EFB6CE /* Main.storyboard in Resources */,
 			);
