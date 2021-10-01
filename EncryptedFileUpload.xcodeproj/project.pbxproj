@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		047A72F22705942300EFB6CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047A72F12705942300EFB6CE /* AppDelegate.swift */; };
+		047A72F42705942300EFB6CE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047A72F32705942300EFB6CE /* SceneDelegate.swift */; };
+		047A72F62705942300EFB6CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047A72F52705942300EFB6CE /* ViewController.swift */; };
+		047A72F92705942300EFB6CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047A72F72705942300EFB6CE /* Main.storyboard */; };
+		047A72FB2705942600EFB6CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 047A72FA2705942600EFB6CE /* Assets.xcassets */; };
+		047A72FE2705942600EFB6CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047A72FC2705942600EFB6CE /* LaunchScreen.storyboard */; };
+		047A73082705951E00EFB6CE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 047A73072705951E00EFB6CE /* GoogleService-Info.plist */; };
+		D48ACE4B291D43663A42CB62 /* Pods_EncryptedFileUpload.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DE4E86249A4DED58EA74A65 /* Pods_EncryptedFileUpload.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		047A72EE2705942300EFB6CE /* EncryptedFileUpload.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EncryptedFileUpload.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		047A72F12705942300EFB6CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		047A72F32705942300EFB6CE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		047A72F52705942300EFB6CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		047A72F82705942300EFB6CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		047A72FA2705942600EFB6CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		047A72FD2705942600EFB6CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		047A72FF2705942600EFB6CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		047A73072705951E00EFB6CE /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3A9AE70C3143A67FA57FBC5E /* Pods-EncryptedFileUpload.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EncryptedFileUpload.debug.xcconfig"; path = "Target Support Files/Pods-EncryptedFileUpload/Pods-EncryptedFileUpload.debug.xcconfig"; sourceTree = "<group>"; };
+		9DE4E86249A4DED58EA74A65 /* Pods_EncryptedFileUpload.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EncryptedFileUpload.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A391813A721F1D5B501F6CF6 /* Pods-EncryptedFileUpload.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EncryptedFileUpload.release.xcconfig"; path = "Target Support Files/Pods-EncryptedFileUpload/Pods-EncryptedFileUpload.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		047A72EB2705942300EFB6CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D48ACE4B291D43663A42CB62 /* Pods_EncryptedFileUpload.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		047A72E52705942300EFB6CE = {
+			isa = PBXGroup;
+			children = (
+				047A72F02705942300EFB6CE /* EncryptedFileUpload */,
+				047A72EF2705942300EFB6CE /* Products */,
+				A099F575268C42ACC57249A3 /* Pods */,
+				6905D0F742BD24339648E09B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		047A72EF2705942300EFB6CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				047A72EE2705942300EFB6CE /* EncryptedFileUpload.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		047A72F02705942300EFB6CE /* EncryptedFileUpload */ = {
+			isa = PBXGroup;
+			children = (
+				047A72F12705942300EFB6CE /* AppDelegate.swift */,
+				047A72F32705942300EFB6CE /* SceneDelegate.swift */,
+				047A72F52705942300EFB6CE /* ViewController.swift */,
+				047A72F72705942300EFB6CE /* Main.storyboard */,
+				047A72FA2705942600EFB6CE /* Assets.xcassets */,
+				047A72FC2705942600EFB6CE /* LaunchScreen.storyboard */,
+				047A72FF2705942600EFB6CE /* Info.plist */,
+				047A73072705951E00EFB6CE /* GoogleService-Info.plist */,
+			);
+			path = EncryptedFileUpload;
+			sourceTree = "<group>";
+		};
+		6905D0F742BD24339648E09B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9DE4E86249A4DED58EA74A65 /* Pods_EncryptedFileUpload.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A099F575268C42ACC57249A3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3A9AE70C3143A67FA57FBC5E /* Pods-EncryptedFileUpload.debug.xcconfig */,
+				A391813A721F1D5B501F6CF6 /* Pods-EncryptedFileUpload.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		047A72ED2705942300EFB6CE /* EncryptedFileUpload */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 047A73022705942600EFB6CE /* Build configuration list for PBXNativeTarget "EncryptedFileUpload" */;
+			buildPhases = (
+				03AE1282E1292A21ED381452 /* [CP] Check Pods Manifest.lock */,
+				047A72EA2705942300EFB6CE /* Sources */,
+				047A72EB2705942300EFB6CE /* Frameworks */,
+				047A72EC2705942300EFB6CE /* Resources */,
+				B22133E9613F723425194861 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EncryptedFileUpload;
+			productName = EncryptedFileUpload;
+			productReference = 047A72EE2705942300EFB6CE /* EncryptedFileUpload.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		047A72E62705942300EFB6CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					047A72ED2705942300EFB6CE = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = 047A72E92705942300EFB6CE /* Build configuration list for PBXProject "EncryptedFileUpload" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 047A72E52705942300EFB6CE;
+			productRefGroup = 047A72EF2705942300EFB6CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				047A72ED2705942300EFB6CE /* EncryptedFileUpload */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		047A72EC2705942300EFB6CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				047A72FE2705942600EFB6CE /* LaunchScreen.storyboard in Resources */,
+				047A73082705951E00EFB6CE /* GoogleService-Info.plist in Resources */,
+				047A72FB2705942600EFB6CE /* Assets.xcassets in Resources */,
+				047A72F92705942300EFB6CE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03AE1282E1292A21ED381452 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EncryptedFileUpload-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B22133E9613F723425194861 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EncryptedFileUpload/Pods-EncryptedFileUpload-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EncryptedFileUpload/Pods-EncryptedFileUpload-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EncryptedFileUpload/Pods-EncryptedFileUpload-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		047A72EA2705942300EFB6CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				047A72F62705942300EFB6CE /* ViewController.swift in Sources */,
+				047A72F22705942300EFB6CE /* AppDelegate.swift in Sources */,
+				047A72F42705942300EFB6CE /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		047A72F72705942300EFB6CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				047A72F82705942300EFB6CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		047A72FC2705942600EFB6CE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				047A72FD2705942600EFB6CE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		047A73002705942600EFB6CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		047A73012705942600EFB6CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		047A73032705942600EFB6CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A9AE70C3143A67FA57FBC5E /* Pods-EncryptedFileUpload.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 464SHFHKT7;
+				INFOPLIST_FILE = EncryptedFileUpload/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.meet.EncryptedFileUpload;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		047A73042705942600EFB6CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A391813A721F1D5B501F6CF6 /* Pods-EncryptedFileUpload.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 464SHFHKT7;
+				INFOPLIST_FILE = EncryptedFileUpload/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.meet.EncryptedFileUpload;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		047A72E92705942300EFB6CE /* Build configuration list for PBXProject "EncryptedFileUpload" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				047A73002705942600EFB6CE /* Debug */,
+				047A73012705942600EFB6CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		047A73022705942600EFB6CE /* Build configuration list for PBXNativeTarget "EncryptedFileUpload" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				047A73032705942600EFB6CE /* Debug */,
+				047A73042705942600EFB6CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 047A72E62705942300EFB6CE /* Project object */;
+}

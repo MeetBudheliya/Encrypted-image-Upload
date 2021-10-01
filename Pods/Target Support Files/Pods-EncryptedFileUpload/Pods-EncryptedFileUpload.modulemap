@@ -1,0 +1,6 @@
+framework module Pods_EncryptedFileUpload {
+  umbrella header "Pods-EncryptedFileUpload-umbrella.h"
+
+  export *
+  module * { export * }
+}
